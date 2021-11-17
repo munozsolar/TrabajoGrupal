@@ -19,3 +19,35 @@ function checkTime(i){
 window.onload=function(){
     startTime();
 }
+
+function confirmacion(){
+
+    var nombre = document.getElementById("nombre").value
+    let apellido = document.getElementById("apellido").value
+    let ciudad = document.getElementById("ciudad").value
+    let telefono = document.getElementById("telefono").value
+
+    if(nombre.length == 0){
+       alert("No pusiste tu nombre")
+    }else {
+        if(apellido.length == 0){
+            alert("No pusiste tu apellido")
+        }
+        else{
+            if(ciudad.length == 0){
+                alert("No pusiste tu ciudad")
+            }
+            else{
+                if(telefono.length == 0){
+                    alert("No pusiste tu telefono")
+                }
+                else{
+                    alert("Bienvenid@ "+nombre+" "+apellido+" con residencia en "+ciudad+", "+" te llamaremos al telefono: "+telefono);
+                }
+            }
+        }
+    }
+
+    
+    
+}
