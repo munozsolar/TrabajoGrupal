@@ -51,3 +51,7 @@ function confirmacion(){
     
     
 }
+
+$(document).ready( function () {
+    $('.productos').DataTable();
+} );
