@@ -55,7 +55,9 @@ function confirmacion(){
 
 
 $(document).ready(function () {
-    $('.productos').DataTable();
+    if($('.productos').length > 0 ){
+        $('.productos').DataTable();
+    }
 } );
 
 function compra(){
