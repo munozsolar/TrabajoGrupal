@@ -52,6 +52,12 @@ function confirmacion(){
     
 }
 
-$(document).ready( function () {
+
+
+$(document).ready(function () {
     $('.productos').DataTable();
 } );
+
+function compra(){
+    alert("Se agrego a tu carrito de compras!")
+}

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Ubicacion</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
 </head>
 
 <body>
@@ -57,51 +57,19 @@
 
 
     <br>
-    
-    <div class="container " >
-        <h1 class="text-center">¿Quieres ser parte de nuestro negocio?</h1>
-        <br>
-        <p>Ingresa tus datos y nos pondremos en contacto contigo</p>
-        <section class="row  bg-warning">
-            <form name="formularioC" >
-                <div class="form-row w-100 d-flex flex-column align-items-center">
-                  <div class="col-md-12 col-mb-3">
-                    <label for="validationDefault01">Nombre</label>
-                    <input id="nombre" type="text" class="form-control"  placeholder="Nombre" required>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <label for="validationDefault02">Apellido</label>
-                    <input id="apellido" type="text" class="form-control"  placeholder="Apellido" required>
-                  </div>
-                </div>
-
-                <div class="form-row w-100 d-flex flex-column align-items-center">
-                  <div class="col-md-12 mb-3">
-                    <label for="validationDefault03">Ciudad</label>
-                    <input type="text" class="form-control" id="ciudad" placeholder="Ciudad" required>
-                  </div>
-
-                  <div class="col-md-12 mb-3">
-                    <label for="validationDefault05">Telefono</label>
-                    <input id="telefono" type="text" class="form-control"  placeholder="Telefono" required>
-                  </div>
-                </div>
-                <div class="form-group w-100 d-flex flex-column align-items-center">
-
-                </div>
-                
-              </form>
-              <button onclick="confirmacion()" class="btn btn-primary ">Enviar</button>
+    <div class="container">
+        <section class="row m-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.5560310020334!2d-70.65118730097521!3d-33.439517466659645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a3f611f657%3A0x93862ef747b252f7!2sHu%C3%A9rfanos%201033%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1637366498790!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>      
         </section>
-        
     </div>
-
     
     
     <footer class="text-center">
         <p id="pie">MGT Limitada 2021</p>   
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="./assets/js/jquery.js"></script>
+   <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
    <script src="./assets/js/main.js"></script>
 </body>
 </html>
